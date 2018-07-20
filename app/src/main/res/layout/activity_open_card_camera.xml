@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <news.dvlp.testcamera.view.ClipCamera
+        android:id="@+id/open_surface_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center" />
+
+    <news.dvlp.testcamera.view.Shadow
+        android:id="@+id/shadow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+
+    <TextView
+        android:id="@+id/tv_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerVertical="true"
+        android:rotation="90"
+        android:textSize="18sp"
+        android:layout_marginLeft="15dp"
+        android:translationX="-170dp"
+        android:text="请横握手机，并将身份证与模板框对齐拍照"
+        android:textColor="#fff" />
+
+
+    <ImageView
+        android:id="@+id/btn_open_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/tv_hint"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/tv_hint"
+        android:layout_marginTop="30dp"
+        android:background="@mipmap/ic_launcher" />
+    <LinearLayout
+        android:id="@+id/ll_b"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="100dp">
+    <Button
+        android:id="@+id/btn_open_shoot"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+       android:layout_marginLeft="48dp"
+        android:background="@mipmap/ic_launcher" />
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="相册"
+        android:id="@+id/xiangce"
+        android:drawableTop="@mipmap/ic_launcher"
+        android:rotation="90"
+        android:layout_marginLeft="113dp"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/light_open"
+        android:layout_marginLeft="37dp"
+        android:background="@mipmap/ic_launcher"
+        android:rotation="90"
+        />
+
+    </LinearLayout>
+</RelativeLayout>

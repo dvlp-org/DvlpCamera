@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+
+    <TextView
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="#ffff00"
+        android:text="打开相机"/>
+
+    <TextView
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="#ffff00"
+        android:text="打开相机"/>
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:id="@+id/iv_front"
+        android:layout_width="155dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="155dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="27dp"
+        android:src="@mipmap/icon_offical_camera_off" />
+
+</LinearLayout>
