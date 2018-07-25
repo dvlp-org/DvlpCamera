@@ -207,7 +207,7 @@ public class MainActivity extends Activity {
             cardidBackPhotoPath = photoPath;
             Glide.with(this)
                     .load(new File(cardidBackPhotoPath))
-                    .into(icCardidFront);
+                    .into(icCardidBack);
             // 上传照片识别
             new Thread(new Runnable() {
                 @Override

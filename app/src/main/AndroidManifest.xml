@@ -31,6 +31,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".CardCameraActivity"/>
+        <activity android:name=".ImageBrowserActivity"/>
     </application>
 
 </manifest>
